@@ -9,55 +9,66 @@
 </head>
 
 <body>
-    <header>
-   
-    <div class="wrapper">
-        <div class="header">
-            <div class="logo">
-                <img src="assets/img/logo.png" alt="#">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#"></a>Menu</li>
-                    <li><a href="#"></a>What's New</li>
-                    <li><a href="#"></a>Contact</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+            <input type="radio" name="ice-cream" id="green" checked hidden>
+            <input type="radio" name="ice-cream" id="pink" hidden>
+            <input type="radio" name="ice-cream" id="purple" hidden>
 
-  
-
-   
-        <div class="groups">
-        <div class="circle"></div>
-    </div>
+    <header class="header-area">
+        <input id="toggle-bar" type="checkbox" hidden>
         <div class="wrapper">
-           
-            <div class="section-one">
-                <div class="section-details">
-                    <h2>It's not just coffee<br>It's <span>Starbucks</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit repellat deserunt adipisci
-                        incidunt, minus quidem voluptas cupiditate? Reiciendis obcaecati facilis.</p>
-                    <a href="#">Learn More</a>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="assets/img/logo.png" alt="">
                 </div>
-                <div class="section-details">
-                    <img src="assets/img/img3.png" alt="#">
+                <div class="toggle">
+                    <label class="toggle-blog" for="toggle-bar">
+                        <span></span>
+                    </label>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">What's New</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    
+
+            <section class="content-area">
+                <div class="wrapper">
+                <div class="content-block">
+                    <div class="content-text">
+                        <h1>It's not just coffee<br>It's <span>Starbucks</span></h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem illo obcaecati quia doloremque nobis impedit, tempore architecto distinctio, expedita similique sed pariatur esse.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="content-img">
+                        <img src="assets/img/img1.png" alt="#">
+                        <img src="assets/img/img2.png" alt="#">
+                        <img src="assets/img/img3.png" alt="#">
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <input hidden type="radio" name="cta-btn" id="img-1" >
-    <label class="radio-class" for="img-1"><img class="radio" src="assets/img/img3.png" alt="#"></label>
+            </section>
 
-    <input hidden type="radio" name="cta-btn" id="img-2" >
-    <label class="radio-class" for="img-2"><img class="radio" src="assets/img/img4.png" alt="#"></label>
+            <section class="controlar-area">
+                <label for="green">
+                    <img src="assets/img/thumb1.png" alt="#">
+                </label>
+                <label for="pink">
+                    <img src="assets/img/thumb2.png" alt="#">
+                </label>
+                <label for="purple">
+                    <img src="assets/img/thumb3.png" alt="#">
+                </label>
+            </section>
 
-    <input hidden type="radio" name="cta-btn" id="img-3" >
-    <label class="radio-class" for="img-3"><img class="radio" src="assets/img/img1.png" alt="#"></label>
 
 
+        </header>
 </body>
 
 </html>
